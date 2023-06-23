@@ -105,6 +105,7 @@ addButton.addEventListener('click', function (e){
 sendButton.addEventListener('click', async function (e){
     if (typeof window.ethereum === 'undefined') {
         console.error('Metamask is not installed');
+        alert("Metamask is not Installed!");
         return;
       }
     await window.ethereum.enable();
