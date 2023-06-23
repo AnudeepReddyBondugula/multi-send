@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+
+.container{
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    width: 75%;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+
+}
+
+
+
+#title{
+    font-size: 3rem;
+}
+
+#main-form{
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+input, label{
+    font-size: 1.5rem;
+    border-radius: 0.25rem;
+}
+
+label{
+    margin-left: 10px;
+}
+
+#ethValue{
+    width: 10%;
+}
+
+#addEntry{
+    font-size: 1.5rem;
+    border-radius: 0.25rem;
+    background-color: rgb(128, 255, 0);
+}
+
+
+#listOfPayees{
+    font-size: 1.25rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 4rem;
+}
+
+.delete-entry{
+    background-color: red;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.delete-entry i {
+    font-size: 1.5rem;
+}
+.entry{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    height: 3rem;
+}
+
+.delete-entry p {
+    padding: 0;
+    margin: 0;
+}
+
+
+#send{
+    font-size: 2rem;
+    background-color: rgb(128, 255, 0);
+    border-radius: 0.4rem;
+    margin: 2rem
+}

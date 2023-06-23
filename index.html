@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Send</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">MULTI-SEND</h1>
+
+        <form id="main-form" autocomplete="off">
+            <label>Address:</label>
+            <input type="text" id="payeeAddr" placeholder="0x...">
+
+            <label>Value(in ETH):</label>
+            <input type="number" id="ethValue" min="0" step="any" placeholder="">
+
+            <button id="addEntry" type="submit">ADD</button>
+
+        </form>
+
+        <div id="recipientsList">
+            <h2>Recipients List</h2>
+            <div id="listOfPayees">
+                <!-- <div class="entry">
+                        <p>0x2fAf1887c3083Cc89146fd2F3597D69EE72698dD</p>
+                        <p>3.5 ETH</p>
+                        <button class="delete-entry"><i class="material-icons">delete</i></button>
+                </div> -->
+            </div>
+        </div>
+
+        <button id="send">send</button>
+    </div>
+    <script src="build.js"></script>
+    <!-- <script src="script.js"></script> -->
+
+</body>
+</html>
